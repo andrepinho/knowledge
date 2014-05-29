@@ -10,7 +10,7 @@ describe API::PostsController do
     it 'return success' do
       get :index
       expect(response).to be_success
-      expect(response).to_not be_nil
+      expect(json).to have_key('posts')
     end
   end
 

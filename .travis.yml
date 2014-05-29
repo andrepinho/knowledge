@@ -1,0 +1,8 @@
+rvm:
+  - 2.1.1
+
+before_script:
+  - "cp config/database.sample.yml config/database.yml"
+  - "psql -c 'create role knowledge SUPERUSER LOGIN;' postgres"
+  - "psql -c 'create database knowledge_test;' -U knowledge postgres"
+  - "bundle exec rake db:migrate"

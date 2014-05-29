@@ -20,8 +20,6 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-.coveralls.yml
-.travis.yml
 
 ## Specific to RubyMotion:
 .dat*

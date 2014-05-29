@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: knowledge_development
+  pool: 5
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: knowledge_test
+  pool: 5
+  username: postgres
+  password: password
+  min_messages: WARNING
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: knowledge_production
+  pool: 5
+  username: postgres
+  password:
+  host: localhost

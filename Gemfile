@@ -31,6 +31,9 @@ gem 'active_model_serializers'
 # Zurb Foundation CSS framework
 gem 'foundation-rails'
 
+# Coveralls on github
+gem 'coveralls', require: false
+
 # Ember library
 gem 'ember-rails'
 gem 'ember-source'

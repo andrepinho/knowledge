@@ -31,9 +31,6 @@ gem 'active_model_serializers'
 # Zurb Foundation CSS framework
 gem 'foundation-rails'
 
-# Coveralls on github
-gem 'coveralls', require: false
-
 # Ember library
 gem 'ember-rails'
 gem 'ember-source'
@@ -58,6 +55,7 @@ group :test do
   gem 'capybara-webkit'
   gem 'database_cleaner'
   gem 'shoulda-matchers', require: false
+  gem 'coveralls', require: false
 end
 
 group :production do

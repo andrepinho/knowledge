@@ -20,6 +20,7 @@ ActiveRecord::Migration.maintain_test_schema!
 Capybara.javascript_driver = :webkit
 
 RSpec.configure do |config|
+  config.include Requests::JsonHelpers, :type => :controller
   # ## Mock Framework
   #
   # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:

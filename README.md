@@ -19,11 +19,15 @@ An Ember.js/Rails app to concentrate all the links to important articles who the
 
 ```cp config/database.sample.yml config/database.yml```
 
-##### 3. Create database and run migrations
+##### 3. Execute bundle
+
+```bundle install```
+
+##### 4. Create database and run migrations
 
 ```rake db:create db:migrate db:seed```
 
-##### 4. Run the server
+##### 5. Run the server
 
 ```rails s```
 
